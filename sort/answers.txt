@@ -1,0 +1,26 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Bubble sort has time complexity of O(n2) and Omega of Omega(n). By comparing sort1 and sort3 below it can be seen that sort1 is better on sorted50000.txt file indicating it has Mega(n) only.
+
+
+sort2 uses: Merge Sort
+
+How do you know?: Merge sort has time complexity and Omega of O(nlog n). By carefully any randomized list, we can see that sort2 is by far the best compared with other algo.
+
+
+sort3 uses: Selection Sort
+
+How do you know?: Selection sort has worst case of all the three algo. it has time complexity and Omega if O(n2) and Omega(n2). you can clearly see that sorted50000.txt it performs well.
+
+
+            5000rand    10000rand   50000rand   5000rev    10000rev   50000rev  5000sort    10000sort   50000sort
+sort1       0.096       0.362       8.207       0.087      0.25         6.842   0.112       0.097        1.172
+sort2       0.131       0.063       1.167       0.066      0.101       0.918      0.53      0.103        0.797
+sort3       0.12        0.163       4.102       0.078      0.232        3.882    0.072      0.466        3.89
+
+
+                    O()             Omega()
+selection sort      O(n2)           Omega(n2)
+Bubble    sort      O(n2)           Omega(n)
+Merge     sort      O(nlog n)       Omega(nlog n)
+

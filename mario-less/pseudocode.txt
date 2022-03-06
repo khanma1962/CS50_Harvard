@@ -1,0 +1,16 @@
+
+Right aligned
+- first loop for rows
+
+- second loop for col
+    - fill up '.' upto n-1
+    - from n-1 to n fill up '#'
+    - continue till the end
+
+Left align
+- first loop for rows
+- second loop for col
+    - fill up only j and leave the rest to blank
+    - continue till the end
+
+
